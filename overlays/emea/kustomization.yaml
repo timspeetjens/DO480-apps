@@ -4,6 +4,7 @@ bases:
 - ../../base
 
 resources:
+- route-mng.yaml
 
 images:
 - name: mysql
