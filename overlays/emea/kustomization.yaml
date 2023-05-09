@@ -4,4 +4,10 @@ bases:
 - ../../base
 
 resources:
+
+images:
+- name: mysql
+  newName: registry.redhat.io/rhel8/mysql-80
+  newTag: 1-156
+
 nameSuffix: -emea
